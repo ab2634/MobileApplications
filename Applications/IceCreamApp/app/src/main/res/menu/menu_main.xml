@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bertbaldoni.icecreamapp.MainActivity">
+    <item
+        android:title="@string/action_orderHistory"
+        android:orderInCategory="101"
+        android:id="@+id/orderHistoryMenuItem" />
+    <item
+        android:id="@+id/aboutMenuItem"
+        android:orderInCategory="102"
+        android:title="@string/action_about" />
+    app:showAsAction="never" />
+
+</menu>

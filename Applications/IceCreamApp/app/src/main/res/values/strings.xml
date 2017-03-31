@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Ice Cream App</string>
+    <string name="action_about">About</string>
+    <string name="action_orderHistory">Order History</string>
+    <string name="topping1">Peanuts</string>
+    <string name="topping2">Almonds</string>
+    <string name="topping3">Strawberries</string>
+    <string name="topping4">Gummy Bears</string>
+    <string name="topping5">M&amp;Ms</string>
+    <string name="topping6">Brownies</string>
+    <string name="topping7">Oreos</string>
+    <string name="topping8">Marshmallows</string>
+    <string name="hotFudge">Hot Fudge</string>
+    <string name="hotFudgeNone">none</string>
+    <string name="hotFudge1oz">1 oz</string>
+    <string name="hotFudge2oz">2 oz</string>
+    <string name="hotFudge3oz">3 oz</string>
+    <string name="size">Size:</string>
+    <string name="iceCream">Ice Cream:</string>
+    <string name="title">Ice Cream Sundae Maker</string>
+    <string name="theWorks">The Works</string>
+    <string name="reset">Reset</string>
+    <string name="order">Order</string>
+    <string name="aboutSelected">About selected</string>
+    <string name="orderHistorySelected">Order history selected</string>
+    <string name="orderButtonPressed">Your sundae is on the way, Enjoy!</string>
+    <string-array name="flavorSpinner_items">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Strawberry</item>
+    </string-array>
+    <string-array name="sizeSpinner_items">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>

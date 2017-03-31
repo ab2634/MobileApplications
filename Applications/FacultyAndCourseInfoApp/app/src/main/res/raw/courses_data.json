@@ -1,0 +1,90 @@
+{
+    "courses":
+[
+ { 
+  "name": "CISD 750",
+  "shortDesc": "Database Mangement Systems",
+  "longDesc": "Theory and principles of databases and their management. Selected topics in design and implementation of traditional and nontraditional database management systems to retrieve and store various types of data. Current issues, trends, future directions, and research topics in the areas will be explored."
+ },
+ {
+  "name": "DCTE 730",
+  "shortDesc": "Online Learning Environments",
+  "longDesc": "A Ph.D. course in Online Learning Environments covering advanced topics"
+ },
+ {
+  "name": "DISS 770",
+  "shortDesc": "Information Policy",
+  "longDesc": "A Ph.D. course in Information Policy covering advanced topics"
+  },
+ {
+  "name": "DCIS 791",
+  "shortDesc": "Distributed Systems",
+  "longDesc": "Students are expected to contribute to the body of research in the area of networking and distributed systems with a focus on dependable distributed applications and information systems. Topics include the components of distributed systems architecture, operating systems, networking, interprocess communication, middleware, security, and software development. The development of the distributed computing model and its application to enterprise strategy, architecture, and management issues are explored with an emphasis on current research, design and development strategies for dependable information systems."
+ },
+ {
+  "name": "CISD 760",
+  "shortDesc": "Artificial Intelligence",
+  "longDesc": "Theory and practice of artificial intelligence and knowledge-based expert systems including issues in knowledge representation, search, heuristics, learning techniques, tools, languages, and programming techniques. Current issues, future directions, and research topics will be explored."
+ },
+ {
+  "name": "CISD 792",
+  "shortDesc": "Computer Graphics",
+  "longDesc": "Principles of computer graphics including raster operations and 3D graphics: transformations, scene graphs and other modeling methods, hidden surface removal and rendering, programming and graphics systems, visualization, and computer animation. Recent research and current trends will be explored."
+ },
+ {
+  "name": "CISD 730",
+  "shortDesc": "Network Security",
+  "longDesc": "Recent advances in the theory and practice of state-of-the-art methods in the structure and development of operating systems with an emphasis on parallel and distributed systems. Topics include research in operating system architectures, clusters, parallel and distributed operating systems, real-time issues, performance, and software engineering issues associated with systems development. An emphasis will be placed on current systems development, future directions, and research topics."
+ },
+ {
+  "name": "DCTE 747",
+  "shortDesc": "Learning Theories",
+  "longDesc": "Students will explore learning theories and how learning is achieved when instruction is presented from a computer-based paradigm. The course will emphasize the computer as a learning device that can be used in an effective manner to model learning theories associated with behaviorism, cognitivism and constructivism."
+ },
+ {
+  "name": "DCTE 732",
+  "shortDesc": "Online Program Administration",
+  "longDesc": "The course provides a research-based, timely, in-depth investigation into the multiple administrative roles in online programs and schools. Policies, procedures and responsibilities to students and teachers will be delineated. The evolution of online learning from the individual course to the greater entity will be examined as will qualifications for an online program administrator at different levels of learning."
+ },
+ {
+  "name": "DISS 720",
+  "shortDesc": "Human Computer Interaction",
+  "longDesc": "Issues relating to effective HCI are presented. Design elements, procedures, tools, and environments contributing to the management of successful user interfaces are examined. Other topics include current and projected developments in HCI research related to information systems."
+ },
+ {
+  "name": "DCTE 770",
+  "shortDesc": "Instructional Design and Development",
+  "longDesc": "A systematic instructional design process will be used to solve a real-world instructional problem. Students will identify an instructional problem, goal and learning objectives. They will use appropriate technologies to develop an instructional solution. Evaluation plans will be developed."
+ },
+ {
+  "name": "DISS 725",
+  "shortDesc": "The System Development Process",
+  "longDesc": "Acquire advanced knowledge and deeper understanding of system development process including theories and studies related to system life-cycle models, system development strategies, and implementation success. Review of relevant research in the area of techniques, methods, and tools for the analysis and specification of information systems. Review of studies dealing with design principles, requirements gathering, reusability, and quality assurance. Moreover, review of studies and theories relevant to verification and validation process, integration and acceptance testing, reliability measurements, system testing techniques, end-user computing, implementation effectiveness, and system value. Additionally, review of classical theories in information systems and system analysis and design."
+ },
+ {
+  "name": "DISS 740",
+  "shortDesc": "Telecommunications and Computer Networks",
+  "longDesc": "This course focuses on an examination of technical advances in the dynamic field of broadband communications and computer networks and their impacts on the development and implementation of enterprise network solutions. IS methodologies in facilitating network design, deployment, and management are described. Topics include DWDM, advanced Gigabit Ethernet technologies such as 10GbE, network security, cellular and mobile wireless networks, architectural frameworks such as IMS (Internet Protocol Multimedia Subsystem), and wireline and/or wireless computational grids. Trends in standardization and internetworking are reviewed. Capabilities of next-generation networks and innovations in enterprise broadband communications solutions are examined."
+ },
+ {
+  "name": "DCIS 735",
+  "shortDesc": "Knowledge Management",
+  "longDesc": "Acquire advanced knowledge and deeper understanding of knowledge management including theories and studies related to knowledge management and knowledge management systems. Review of relevant research in the area of locating, evaluating, disseminating, and using information as well as knowledge. Review of studies and theories relevant to knowledge acquisition, information sharing, information ownership, knowledge process, knowledge integration, knowledge gathering, knowledge repositories, and knowledge reuse. Additionally, review of current research in knowledge management and knowledge management systems."
+ },
+ {
+  "name": "DCTE 710",
+  "shortDesc": "Qualitative Research Methodologies",
+  "longDesc": "This course provides a comprehensive introduction to the theory and use of qualitative methods in educational and professional settings. Emphasis on application level experiences such as identifying and developing research problems appropriate for qualitative investigation, study design, data collection, analysis, interpretation, and presentation of findings."
+ },
+ {
+  "name": "DISS 700",
+  "shortDesc": "Research Methodology",
+  "longDesc": "This course presents an in-depth treatment of the research process from an experimental, developmental, and evaluative perspective. Techniques for planning and designing these types of research projects, as well as the methodologies for data collection, evaluation, and analysis are examined. Special emphasis is placed on the appropriate choice of methodologies for a variety of problem situations."
+ },
+ {
+  "name": "DISS 755",
+  "shortDesc": "Information Security Management",
+  "longDesc": "This course examines the philosophical and theoretical foundations of information systems security. The focus is on understanding distinctive research orientations regarding effectively securing information systems in organizations. The goal of the course is to provide an intellectual foundation for students to develop an appropriate research program in this area."
+ }
+ ]
+}

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bertbaldoni.icecreamapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/titleTextView"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="@string/topping3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/strawberriesCheckBox"
+        android:layout_below="@+id/almondsCheckBox"
+        android:layout_alignStart="@+id/almondsCheckBox"
+        android:onClick="processCheckBoxChanges" />
+
+    <CheckBox
+        android:text="@string/topping6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/browniesCheckBox"
+        android:layout_above="@+id/strawberriesCheckBox"
+        android:layout_alignStart="@+id/marshmallowsCheckBox"
+        android:onClick="processCheckBoxChanges" />
+
+    <CheckBox
+        android:text="@string/topping5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mAndMsCheckBox"
+        android:layout_above="@+id/almondsCheckBox"
+        android:layout_alignStart="@+id/browniesCheckBox"
+        android:onClick="processCheckBoxChanges" />
+
+    <TextView
+        android:text="@string/iceCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flavorTextView"
+        android:layout_alignTop="@+id/flavorSpinner"
+        android:layout_alignEnd="@+id/almondsCheckBox"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sizeTextView"
+        android:layout_alignTop="@+id/sizeSpinner"
+        android:layout_alignEnd="@+id/flavorTextView"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flavorSpinner"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/totalCostTextView"
+        android:layout_alignEnd="@+id/sizeSpinner"
+        android:entries="@array/flavorSpinner_items"
+        android:layout_toEndOf="@+id/gummyBearsCheckBox" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sizeSpinner"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/mAndMsCheckBox"
+        android:layout_toEndOf="@+id/gummyBearsCheckBox"
+        android:entries="@array/sizeSpinner_items" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/hotFudgeSeekBar"
+        android:max="3"
+        android:progress="0"
+        android:layout_below="@+id/marshmallowsCheckBox"
+        android:layout_alignEnd="@+id/browniesCheckBox"
+        android:layout_alignStart="@+id/sizeTextView" />
+
+    <TextView
+        android:id="@+id/hotFudgeValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hotFudgeSeekBar"
+        android:layout_toEndOf="@+id/hotFudgeSeekBar"
+        android:text="@string/hotFudgeNone" />
+
+    <TextView
+        android:text="@string/hotFudge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hotFudgeTextView"
+        android:layout_alignTop="@+id/hotFudgeSeekBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp" />
+
+    <CheckBox
+        android:text="@string/topping4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gummyBearsCheckBox"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/strawberriesCheckBox"
+        android:layout_alignStart="@+id/strawberriesCheckBox"
+        android:onClick="processCheckBoxChanges"
+        android:checked="false" />
+
+    <Button
+        android:text="@string/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/resetButton"
+        android:onClick="orderButtonPressed" />
+
+    <Button
+        android:text="@string/theWorks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/theWorksButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/resetButton"
+        android:onClick="theWorksButtonPressed" />
+
+    <TextView
+        android:text="$0.00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/totalCostTextView"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_below="@+id/titleTextView"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="@string/topping1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/peanutsCheckBox"
+        android:onClick="processCheckBoxChanges"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/resetButton" />
+
+    <CheckBox
+        android:text="@string/topping7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oreosCheckBox"
+        android:layout_above="@+id/gummyBearsCheckBox"
+        android:layout_alignStart="@+id/browniesCheckBox"
+        android:onClick="processCheckBoxChanges" />
+
+    <CheckBox
+        android:text="@string/topping8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marshmallowsCheckBox"
+        android:layout_alignBaseline="@+id/gummyBearsCheckBox"
+        android:layout_alignBottom="@+id/gummyBearsCheckBox"
+        android:layout_alignEnd="@+id/orderButton"
+        android:onClick="processCheckBoxChanges" />
+
+    <CheckBox
+        android:text="@string/topping2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/almondsCheckBox"
+        android:onClick="processCheckBoxChanges"
+        android:layout_below="@+id/peanutsCheckBox"
+        android:layout_alignStart="@+id/peanutsCheckBox" />
+
+    <Button
+        android:text="@string/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="resetButtonPressed" />
+
+</RelativeLayout>

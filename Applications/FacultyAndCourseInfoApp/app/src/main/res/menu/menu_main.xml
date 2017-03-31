@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bertbaldoni.facultyandcourseinfoapp.MainActivity">
+
+    <item
+        android:id="@+id/action_faculty_list"
+        android:orderInCategory="101"
+        android:title="Faculty" />
+    <item
+        android:id="@+id/action_course_list"
+        android:orderInCategory="102"
+        android:title="Courses"
+        app:showAsAction="never" />
+
+</menu>
